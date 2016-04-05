@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC008091CB3950C000A2BAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC008081CB3950C000A2BAA /* AppDelegate.swift */; };
+		FCC0080B1CB3950C000A2BAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC0080A1CB3950C000A2BAA /* ViewController.swift */; };
+		FCC008101CB3950C000A2BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC0080F1CB3950C000A2BAA /* Assets.xcassets */; };
+		FCC008131CB3950C000A2BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC008111CB3950C000A2BAA /* LaunchScreen.storyboard */; };
+		FCC83F401CB3BDAC00DB0B9F /* KCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F371CB3BDAC00DB0B9F /* KCButton.swift */; };
+		FCC83F411CB3BDAC00DB0B9F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F381CB3BDAC00DB0B9F /* UIButtonExtension.swift */; };
+		FCC83F421CB3BDAC00DB0B9F /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F391CB3BDAC00DB0B9F /* UIColorExtension.swift */; };
+		FCC83F431CB3BDAC00DB0B9F /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F3A1CB3BDAC00DB0B9F /* UILabelExtension.swift */; };
+		FCC83F441CB3BDAC00DB0B9F /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F3B1CB3BDAC00DB0B9F /* UIViewExtension.swift */; };
+		FCC83F451CB3BDAC00DB0B9F /* Framework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCC83F3C1CB3BDAC00DB0B9F /* Framework.bundle */; };
+		FCC83F461CB3BDAC00DB0B9F /* KCDeleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F3D1CB3BDAC00DB0B9F /* KCDeleteTextField.swift */; };
+		FCC83F471CB3BDAC00DB0B9F /* KCTagButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F3E1CB3BDAC00DB0B9F /* KCTagButton.swift */; };
+		FCC83F481CB3BDAC00DB0B9F /* KCTagScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC83F3F1CB3BDAC00DB0B9F /* KCTagScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCC008051CB3950C000A2BAA /* TagEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC008081CB3950C000A2BAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC0080A1CB3950C000A2BAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC0080F1CB3950C000A2BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC008121CB3950C000A2BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC008141CB3950C000A2BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC83F371CB3BDAC00DB0B9F /* KCButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCButton.swift; sourceTree = "<group>"; };
+		FCC83F381CB3BDAC00DB0B9F /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		FCC83F391CB3BDAC00DB0B9F /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FCC83F3A1CB3BDAC00DB0B9F /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		FCC83F3B1CB3BDAC00DB0B9F /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FCC83F3C1CB3BDAC00DB0B9F /* Framework.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Framework.bundle; sourceTree = "<group>"; };
+		FCC83F3D1CB3BDAC00DB0B9F /* KCDeleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCDeleteTextField.swift; sourceTree = "<group>"; };
+		FCC83F3E1CB3BDAC00DB0B9F /* KCTagButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCTagButton.swift; sourceTree = "<group>"; };
+		FCC83F3F1CB3BDAC00DB0B9F /* KCTagScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KCTagScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC008021CB3950C000A2BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC007FC1CB3950C000A2BAA = {
+			isa = PBXGroup;
+			children = (
+				FCC008071CB3950C000A2BAA /* TagEditorDemo */,
+				FCC008061CB3950C000A2BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC008061CB3950C000A2BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC008051CB3950C000A2BAA /* TagEditorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC008071CB3950C000A2BAA /* TagEditorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCC83F351CB3BDAC00DB0B9F /* TagEditor */,
+				FCC008081CB3950C000A2BAA /* AppDelegate.swift */,
+				FCC0080A1CB3950C000A2BAA /* ViewController.swift */,
+				FCC0080F1CB3950C000A2BAA /* Assets.xcassets */,
+				FCC008111CB3950C000A2BAA /* LaunchScreen.storyboard */,
+				FCC008141CB3950C000A2BAA /* Info.plist */,
+			);
+			path = TagEditorDemo;
+			sourceTree = "<group>";
+		};
+		FCC83F351CB3BDAC00DB0B9F /* TagEditor */ = {
+			isa = PBXGroup;
+			children = (
+				FCC83F361CB3BDAC00DB0B9F /* Base */,
+				FCC83F3C1CB3BDAC00DB0B9F /* Framework.bundle */,
+				FCC83F3D1CB3BDAC00DB0B9F /* KCDeleteTextField.swift */,
+				FCC83F3E1CB3BDAC00DB0B9F /* KCTagButton.swift */,
+				FCC83F3F1CB3BDAC00DB0B9F /* KCTagScrollView.swift */,
+			);
+			path = TagEditor;
+			sourceTree = "<group>";
+		};
+		FCC83F361CB3BDAC00DB0B9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FCC83F371CB3BDAC00DB0B9F /* KCButton.swift */,
+				FCC83F381CB3BDAC00DB0B9F /* UIButtonExtension.swift */,
+				FCC83F391CB3BDAC00DB0B9F /* UIColorExtension.swift */,
+				FCC83F3A1CB3BDAC00DB0B9F /* UILabelExtension.swift */,
+				FCC83F3B1CB3BDAC00DB0B9F /* UIViewExtension.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC008041CB3950C000A2BAA /* TagEditorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC008171CB3950C000A2BAA /* Build configuration list for PBXNativeTarget "TagEditorDemo" */;
+			buildPhases = (
+				FCC008011CB3950C000A2BAA /* Sources */,
+				FCC008021CB3950C000A2BAA /* Frameworks */,
+				FCC008031CB3950C000A2BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagEditorDemo;
+			productName = TagEditorDemo;
+			productReference = FCC008051CB3950C000A2BAA /* TagEditorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC007FD1CB3950C000A2BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KenshinCui;
+				TargetAttributes = {
+					FCC008041CB3950C000A2BAA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FCC008001CB3950C000A2BAA /* Build configuration list for PBXProject "TagEditorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC007FC1CB3950C000A2BAA;
+			productRefGroup = FCC008061CB3950C000A2BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC008041CB3950C000A2BAA /* TagEditorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC008031CB3950C000A2BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC008131CB3950C000A2BAA /* LaunchScreen.storyboard in Resources */,
+				FCC008101CB3950C000A2BAA /* Assets.xcassets in Resources */,
+				FCC83F451CB3BDAC00DB0B9F /* Framework.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC008011CB3950C000A2BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC0080B1CB3950C000A2BAA /* ViewController.swift in Sources */,
+				FCC83F411CB3BDAC00DB0B9F /* UIButtonExtension.swift in Sources */,
+				FCC83F421CB3BDAC00DB0B9F /* UIColorExtension.swift in Sources */,
+				FCC008091CB3950C000A2BAA /* AppDelegate.swift in Sources */,
+				FCC83F461CB3BDAC00DB0B9F /* KCDeleteTextField.swift in Sources */,
+				FCC83F471CB3BDAC00DB0B9F /* KCTagButton.swift in Sources */,
+				FCC83F481CB3BDAC00DB0B9F /* KCTagScrollView.swift in Sources */,
+				FCC83F441CB3BDAC00DB0B9F /* UIViewExtension.swift in Sources */,
+				FCC83F431CB3BDAC00DB0B9F /* UILabelExtension.swift in Sources */,
+				FCC83F401CB3BDAC00DB0B9F /* KCButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCC008111CB3950C000A2BAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC008121CB3950C000A2BAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC008151CB3950C000A2BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC008161CB3950C000A2BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC008181CB3950C000A2BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagEditorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmjstudio.tageditor.TagEditorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCC008191CB3950C000A2BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagEditorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmjstudio.tageditor.TagEditorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC008001CB3950C000A2BAA /* Build configuration list for PBXProject "TagEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC008151CB3950C000A2BAA /* Debug */,
+				FCC008161CB3950C000A2BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC008171CB3950C000A2BAA /* Build configuration list for PBXNativeTarget "TagEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC008181CB3950C000A2BAA /* Debug */,
+				FCC008191CB3950C000A2BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC007FD1CB3950C000A2BAA /* Project object */;
+}
