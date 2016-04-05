@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 
 ## 演示
 
-![](https://github.com/kenshincui/LightweightUITableView/blob/master/LightweightUITableViewDemo/LightweightUITableViewDemo/Resources/AutoHeightCell.gif?raw=true)
+![](https://raw.githubusercontent.com/kenshincui/TagEditor/master/TagEditor.gif)
 
 ## 博客
 欢迎访问本人博客：[Kenshin Cui's Blog](http://www.cnblogs.com/kenshincui/)
